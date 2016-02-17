@@ -1,9 +1,9 @@
 class HT1 {
 	public static void main (String[]args) {
-		String a = "Violet";
+		String a = "Violet";				/// В задании речь идет о простых типах (числах)
 		String b = "Purple";
 		String c = "";
-			c = b ;
+			c = b ;				
 			b = a ; 
 			a = c ;
 				System.out.println (a + b);
@@ -18,7 +18,7 @@ class HT1 {
 
 class HT2 {
 	public static void main (String[]args) {
-		String a = "Chair";
+		String a = "Chair";						/// В задании речь идет о простых типах (числах)
 		String b = "Bad";
 		String c = "Table";
 		String d = "";
@@ -39,7 +39,7 @@ class HT2 {
 
 class HT3 {
 	public static void main (String[]args) {
-		String A = "Humster";
+		String A = "Humster";					/// В задании речь идет о простых типах (числах)
 		String B = "Dog";
 		String C = "Parrot";		
 		String D = "";
@@ -60,7 +60,7 @@ class HT3 {
 
 class HT4 {
 	public static void main (String[]args) {
-		int a = 10 ;
+		int a = 10 ;							/// В задании переменные должны вводится как аргументы командной строки.
 		int b = 5 ;
 			a = (a + b);
 			b = (a - b);
@@ -80,7 +80,7 @@ class HT4 {
 
 class HT5 {
 	public static void main (String[]args) {
-		int a = 2;
+		int a = 2;						/// В задании переменные должны вводится как аргументы командной строки.					
 		int b = (a * a) ;
 			System.out.println (b);
 			System.out.println (b * b);
@@ -98,7 +98,7 @@ class HT5 {
 
 class HT6 {
 	public static void main (String[]args) {
-		float tf = 59.00000f ;
+		float tf = 59.00000f ;					/// В задании переменные должны вводится как аргументы командной строки.
 		float tc = ((tf - 32) * 5 / 9) ;
 			System.out.println (tc);
 	
@@ -116,7 +116,7 @@ TC=(TF–32)·5/9. */
 
 
 
-class HT7 {
+class HT7 {									/// Здесь решена предыдущая задача.
 	public static void main (String[]args) {
 		float tf ;
 		float tc ;
@@ -251,7 +251,7 @@ class HT12 {
 
 
 
-class HT13 {
+class HT13 {									/// Задание выполнено неверно
 	public static void main (String []args) {
 		int a = 3 ;
 			for ( int i = 3 ; i <= 36; i += 3) {
@@ -392,9 +392,9 @@ class HT18 {
 				double r ;
 				double n ;
 				int s ;
-					r = b + (Math.random() * (a - b));
+					r = b + (Math.random() * (a - b));	/// здесь будут дробніе числа
 					n = b + (Math.random() * (a - b));
-					s = (int)(r + n) ;
+					s = (int)(r + n) ;					/// здесь будут потери округления	
                 
 						System.out.println(r);
 						System.out.println(n);
